@@ -13,7 +13,7 @@
 
 let country = 'Sweden'
 
-let access = country === 'Sweden' ? 'true' : 'false';
+let access = country === 'Sweden' ? 'acces = true' : 'acces = false';
 
 console.log(access);
 
@@ -60,13 +60,13 @@ for(let i = 0; i < 10; i +=2){
 
 // ** Задавать количество чисел, которые нужно вывести, при помощи функции prompt.
 
-let n = 0;
+
 let amount = (Number(prompt('задайте количество чисел для возведения в квадрат (от 0 до 100)')));
 
 for(let i = 0; i < amount; i +=1){
     if(amount <100){
-      n = i ** 2;
-        console.log(n);
+      
+        console.log(i ** 2);
     }else{
     console.log('количество чисел для возведения > 100');
     }
@@ -119,10 +119,8 @@ while (i < 3){
 
 
 function squareNumbers(min, max){
-    let square = 0;
     for(let i = min; i <= max; i++){
-        square = i ** 2;
-        console.log(square);
+        console.log(i ** 2);
     }
 }
 
