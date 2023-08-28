@@ -18,9 +18,9 @@ console.log(num ** degree);
 
 let text = 'my text'
 if(text == 'some text'){
-    console.log('another text')
+    text ='another text'
 }else{
-    console.log('some text')
+    text ='some text'
 };
 
 // Задание 5
@@ -33,11 +33,11 @@ if(text == 'some text'){
 
 let num = 5;
 if(num === 0){
-    console.log(1)
+    num =1
 }else if(num < 0){
-    console.log('less then zero')
+    num ='less then zero'
 }else{
-    console.log(num*=10)
+    num*=10
 };
 
 // Задание 6
@@ -45,13 +45,10 @@ if(num === 0){
 // (Не забывайте, что от пользователя мы всегда получаем строку).
 // Создайте переменную-результат и присвойте ей значение: если введенное пользователем число меньше 5, то результат будет '0', если больше -  '1'. Выведите результат в консоль.
 
-let num = prompt('задайте число');
-let result = Number(num);
-if(result < 5){
-    console.log(0)
-}else{
-    console.log(1)
-};
+let num = Number(prompt('задайте число'));
+
+num < 5? console.log (num = 0): console.log (num = 1);
+
 
 // Задание 7
 // Попросить пользователя ввести одно число, следом - второе число. Вывести в консоль максимальное из чисел (наибольшее) с текстом: Большее число: 7 (вместо 7 будет максимальное число из введенных пользователем).
