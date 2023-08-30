@@ -13,7 +13,7 @@
 
 let country = 'Sweden'
 
-let access = country === 'Sweden' ? 'acces = true' : 'acces = false';
+let access = country === 'Sweden' ?  true : false;
 
 console.log(access);
 
