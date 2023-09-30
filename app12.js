@@ -74,7 +74,7 @@ if(typeof item != 'number'){
 } 
    })
    const sred = (sum / (arrayNumber.length - n)).toFixed(2);
-   console.log(sred);
+   // console.log(sred);
    return;
 };
 
